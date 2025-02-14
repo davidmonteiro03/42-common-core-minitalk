@@ -6,14 +6,14 @@
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/06 20:01:48 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/10/06 20:34:56 by dcaetano         ###   ########.fr       */
+/*   Updated: 2025/02/14 16:22:29 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static char	*ft_array(char *x, unsigned int number, long int len, \
-	const char format)
+static char	*ft_array(char *x, unsigned int number, long int len,
+		const char format)
 {
 	char	*base;
 

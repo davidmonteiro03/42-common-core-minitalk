@@ -6,7 +6,7 @@
 /*   By: dcaetano <dcaetano@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/03 19:42:29 by dcaetano          #+#    #+#             */
-/*   Updated: 2023/10/05 18:26:35 by dcaetano         ###   ########.fr       */
+/*   Updated: 2025/02/14 16:22:20 by dcaetano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,5 +17,5 @@ void	ft_putstr_fd(char *s, int fd)
 	if (!s || fd == -1)
 		return ;
 	while (*s)
-		write (fd, s++, 1);
+		write(fd, s++, 1);
 }
